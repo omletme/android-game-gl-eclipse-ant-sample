@@ -11,7 +11,7 @@ import java.util.Random;
 import android.view.Window;
 import static android.opengl.GLES10.*;
 
-public class GLActvity extends Activity
+public class GLActivity extends Activity
 {
     /** Called when the activity is first created. */
     @Override
@@ -25,22 +25,22 @@ public class GLActvity extends Activity
         //opengl 2+ required
         gl.setEGLContextClientVersion(2);
         
-		gl.setRenderer(new Renderer() {
+        gl.setRenderer(new Renderer() {
             Random r = new Random();
-			@Override
-			public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-			}
+            @Override
+            public void onSurfaceCreated(GL10 gl, EGLConfig config) {
+            }
 
-			@Override
-			public void onSurfaceChanged(GL10 gl, int width, int height) {
-			}
+            @Override
+            public void onSurfaceChanged(GL10 gl, int width, int height) {
+            }
 
-			@Override
-			public void onDrawFrame(GL10 gl) {
+            @Override
+            public void onDrawFrame(GL10 gl) {
                 glClearColor(r.nextFloat(),r.nextFloat(),r.nextFloat(), 1);
                 glClear(GL10.GL_COLOR_BUFFER_BIT);
-			}
-		});
+            }
+        });
         setContentView(gl);
 
         OmletGameSDK.setGameChatOverlayEnabled(this, true);

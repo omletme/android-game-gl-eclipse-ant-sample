@@ -6,7 +6,7 @@
     <uses-sdk android:minSdkVersion="14"
       android:targetSdkVersion="23"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="GLActvity"
+        <activity android:name="GLActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
