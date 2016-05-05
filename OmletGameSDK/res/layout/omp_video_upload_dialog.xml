@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circular="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <mobisocial.omlet.mobisocial.omlib.ui.view.CircularProgressBar
+        android:id="@+id/circularprogressbar"
+        style="@style/Widget.ProgressBar.CircularProgressBar"
+        android:layout_marginTop="20dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        circular:cpb_title="0%"
+        circular:cpb_titleColor="@color/omlet_blue"
+        circular:cpb_progressColor="@color/omlet_blue" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_marginTop="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/omlet_blue"
+        android:text="@string/omp_upload_msg"/>
+
+    <TextView
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/gray_text_4a4a4a"
+        android:text="@string/omp_upload_desc"/>
+
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omp_video_upload_dialog.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omp_video_upload_dialog.xml -->

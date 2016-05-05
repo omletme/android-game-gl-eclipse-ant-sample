@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/omo_snackbar_small_background"
+    android:gravity="center"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingLeft="90dp"
+    android:paddingRight="90dp"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/toast_image"
+        android:layout_width="@dimen/status_image_side"
+        android:layout_height="@dimen/status_image_side"
+        android:layout_marginRight="10dp"/>
+
+    <TextView android:id="@+id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omo_snackbar_status_layout.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omo_snackbar_status_layout.xml -->

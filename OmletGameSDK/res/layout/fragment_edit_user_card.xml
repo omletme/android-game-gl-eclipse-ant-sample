@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/word_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/okayAqua"
+            android:textSize="14sp"
+            android:text="@string/word_count_100"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:text="@string/max_word_count_100"/>
+        <TextView
+            android:id="@+id/okay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="7dp"
+            android:text="@string/btn_okay"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:background="@drawable/background_okay_button"/>
+    </LinearLayout>
+
+    <view class="cards.user.cardlib.ui.fragment.EditUserCardFragment$EditUserCardEditText"
+        android:id="@+id/edit_text"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar"
+        android:imeOptions="flagNoExtractUi|actionDone"
+        android:inputType="text"
+        android:padding="5dp"
+        android:maxLength="100"
+        android:background="#00000000"/>
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-cards/src/main/res/layout/fragment_edit_user_card.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/layout/fragment_edit_user_card.xml -->

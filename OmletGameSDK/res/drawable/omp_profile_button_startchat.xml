@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/oml_strangerprofile_startchat_press" android:state_pressed="true"/>
+    <item android:drawable="@drawable/oml_strangerprofile_startchat_normal"/>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_profile_button_startchat.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_profile_button_startchat.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"
+        android:drawable="@drawable/omp_view_om_media_controller_share_dialog_copy_background_press"></item>
+    <item android:drawable="@drawable/omp_view_om_media_controller_share_dialog_copy_background"></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_view_om_media_controller_share_dialog_copy_selector.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_view_om_media_controller_share_dialog_copy_selector.xml -->

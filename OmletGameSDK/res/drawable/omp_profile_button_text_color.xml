@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#ffffff" android:state_pressed="true"/>
+    <item android:color="#ffffff" android:state_checked="true"/>
+    <item android:color="#2eacd4"/>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_profile_button_text_color.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_profile_button_text_color.xml -->

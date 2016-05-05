@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <mobisocial.omlib.ui.view.RecyclerView
+        android:id="@+id/sticker_preview_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sticker_preview_list_height"
+        android:layout_alignParentBottom="true"/>
+
+    <mobisocial.omlib.ui.view.RecyclerView
+        android:id="@+id/sticker_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/sticker_preview_list"/>
+
+
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_fragment_stickers.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_fragment_stickers.xml -->

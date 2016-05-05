@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="3dip" />
+            <solid android:color="@color/oml_overlay_toast_background" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omo_snackbar_small_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omo_snackbar_small_background.xml -->

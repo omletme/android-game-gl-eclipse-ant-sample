@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="46dip">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/close_frame"
+        android:layout_width="46dip"
+        android:layout_height="46dip"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:background="@drawable/omp_btn_quit_chat"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mini_frame"
+        android:layout_width="46dip"
+        android:layout_height="41dip"
+        android:layout_below="@id/close_frame"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal|top">
+        <ImageView
+            android:id="@+id/image_mini"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:background="@drawable/omp_btn_minimizechat_normal"/>
+    </RelativeLayout>
+
+    <ProgressBar android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@android:style/Widget.ProgressBar.Large"/>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omp_activity_chat.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omp_activity_chat.xml -->

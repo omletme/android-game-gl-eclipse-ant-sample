@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2011 The Android Open Source Project.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="omlet.game.sdk"
+    android:versionCode="20"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- Tell the system this app requires OpenGL ES 2.0. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- GCM -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Baidu Push -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <application android:allowBackup="true" >
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.OmplayActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.ShareVideoActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.SigninActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.UploadCompleteActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.MiuiWarningActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.WatchVideoActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.VideoEditorActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.ScreenshotEditActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.LoginOmletViaAccessTokenActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.chatingame.ChatProxyActivity"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.chatingame.MediaDetailsActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.OmchatActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.MediaUploadActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.overlaybar.ui.activity.MediaUploadToChatActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.streaming.TwitchSigninActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlet.chatingame.MediaShareActivity"
+            android:theme="@style/Theme.Transparent" />
+
+        <service
+            android:name="mobisocial.omlet.overlaybar.util.MediaUploadIntentService"
+            android:exported="false" >
+        </service>
+
+        <meta-data
+            android:name="omlet.nopush"
+            android:value="true" /> <!-- GCM -->
+        <service
+            android:name="mobisocial.omlib.service.gcm.OmlibGcmListenerService"
+            android:exported="false" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+            -->
+        </service>
+        <service
+            android:name="mobisocial.omlib.service.gcm.OmlibGcmInstanceIDListenerService"
+            android:exported="false" >
+
+            <!--
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+            -->
+        </service> <!-- Baidu Push -->
+        <receiver android:name="mobisocial.omlib.service.baidu.OmlibBaiduPushReceiver" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:enabled="false"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:enabled="false"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:enabled="false"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:enabled="false"
+            android:exported="true" />
+
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ContactPickerActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.mobisocial.omlib.account" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mobisocial.omlib.ui.activity.CreateChatActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.MyProfileActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.SetChatMembersActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.UserProfileActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ContactListActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.InviteContactActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ProxyMainActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ChatActivity"
+            android:parentActivityName="mobisocial.omlib.ui.activity.ProxyMainActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:windowSoftInputMode="adjustResize|stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="vnd.android.cursor.item/vnd.mobisocial.omlib.feed"
+                    android:scheme="content" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ChatMembersActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.ChatSettingsActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity
+            android:name="mobisocial.omlib.ui.activity.SideswipeGalleryActivity"
+            android:label="@string/gallery"
+            android:theme="@style/HiddenActionBarTheme" >
+        </activity>
+        <!--
+        <receiver android:name=".service.InstallReferrerBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        -->
+        <service
+            android:name="mobisocial.omlib.ui.service.InstallReferrerService"
+            android:exported="false" />
+
+        <activity
+            android:name="mobisocial.omlib.ui.activity.SharedFeedListActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cards.user.cardlib.ui.activity.IntroActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OmletCard" >
+        </activity>
+        <activity
+            android:name="cards.user.cardlib.ui.activity.ViewUserCardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OmletCard" >
+        </activity>
+        <activity
+            android:name="cards.user.cardlib.ui.activity.EditUserCardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OmletCard"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="cards.user.cardlib.ui.activity.ShareUserCardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OmletCard"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+    </application>
+
+</manifest>

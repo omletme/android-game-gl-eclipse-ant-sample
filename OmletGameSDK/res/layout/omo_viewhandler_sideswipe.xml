@@ -1,0 +1,12 @@
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </RelativeLayout>
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omo_viewhandler_sideswipe.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omo_viewhandler_sideswipe.xml -->

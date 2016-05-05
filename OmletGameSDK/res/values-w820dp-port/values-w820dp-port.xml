@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/values-w820dp-port/values-w820dp-port.xml -->
+    <eat-comment/>
+    <item name="video_column_count" type="integer">2</item>
+</resources>

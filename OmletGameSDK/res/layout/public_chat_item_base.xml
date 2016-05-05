@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="3dp">
+
+    <View android:id="@+id/aggregator_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aggregator_spacer">
+        <TextView android:id="@+id/sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/oml_public_chat_sender_text"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="4dp"/>
+        <TextView android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/sender"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/oml_public_chat_timestamp"
+            android:layout_toRightOf="@id/sender"/>
+
+        <!-- the margins and alignments of this layout get set in ChatFragment.java -->
+        <RelativeLayout android:id="@+id/content_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/timestamp">
+            <ImageView android:id="@+id/read"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/omp_gamechat_msgread"/>
+
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/progress_bar_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_alignTop="@id/content_wrapper"
+            android:layout_alignLeft="@id/content_wrapper"
+            android:layout_alignRight="@id/content_wrapper"
+            android:background="@drawable/oml_chat_bubble_progress_bar_background">
+
+            <View android:id="@+id/progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/oml_chat_bubble_progress_bar"/>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/like_heart_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+            <ImageView android:id="@+id/like_heart"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+            <TextView android:id="@+id/like_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11dp"
+                android:textColor="@color/oml_chat_pane_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/public_chat_item_base.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/public_chat_item_base.xml -->

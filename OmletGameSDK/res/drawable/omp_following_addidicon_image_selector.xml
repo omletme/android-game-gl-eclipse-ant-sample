@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true"
+        android:drawable="@drawable/omp_btn_addidicon_reaction"></item>
+    <item android:drawable="@drawable/omp_btn_addidicon_click"></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_following_addidicon_image_selector.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_following_addidicon_image_selector.xml -->

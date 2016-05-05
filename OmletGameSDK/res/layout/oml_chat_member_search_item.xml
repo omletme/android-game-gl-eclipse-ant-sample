@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:paddingLeft="10dp"
+        android:layout_centerInParent="true">
+        <ImageButton
+            android:id="@+id/image_button_search"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/oml_btn_glist_searchgroup"/>
+        <EditText
+            android:id="@+id/contact_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/image_button_search"
+            android:background="@null"
+            android:hint="@string/search_contacts"
+            android:textColor="@color/oml_group_name_text"
+            android:textColorHint="@color/oml_hint_text"
+            android:textSize="18sp"
+            android:textCursorDrawable="@null"
+            android:inputType="text"
+            android:imeOptions="actionSearch"/>
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_chat_member_search_item.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_chat_member_search_item.xml -->

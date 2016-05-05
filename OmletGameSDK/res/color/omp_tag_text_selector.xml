@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:color="@color/omlet_blue"></item>
+    <item android:color="@android:color/white"></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/color/omp_tag_text_selector.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/color/omp_tag_text_selector.xml -->

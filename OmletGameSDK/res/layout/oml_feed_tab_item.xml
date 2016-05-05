@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="84dp"
+    android:layout_height="26dp"
+    android:background="@android:color/transparent">
+    <View
+        android:id="@+id/view_feed_tab_bg"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/oml_background_feed_tab"></View>
+    
+    <ImageButton
+        android:id="@+id/image_button_quitchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/omp_btn_chattabview_quitchat_no_circle"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text_feed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/image_button_quitchat"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:singleLine="true"/>
+
+    <View
+        android:id="@+id/view_feed_unread"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/oml_btn_group_delete_background"
+        android:visibility="gone"></View>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_feed_tab_item.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_feed_tab_item.xml -->

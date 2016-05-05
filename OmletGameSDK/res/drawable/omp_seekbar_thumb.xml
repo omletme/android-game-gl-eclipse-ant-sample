@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval">
+            <size
+                android:height="16dp"
+                android:width="16dp" />
+            <solid android:color="@color/omlet_blue" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_seekbar_thumb.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_seekbar_thumb.xml -->

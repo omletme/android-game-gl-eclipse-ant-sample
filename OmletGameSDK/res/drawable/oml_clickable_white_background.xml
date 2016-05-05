@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#f1f1f1"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#f1f1f1"/>
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#ffffff"/>
+        </shape></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_clickable_white_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_clickable_white_background.xml -->

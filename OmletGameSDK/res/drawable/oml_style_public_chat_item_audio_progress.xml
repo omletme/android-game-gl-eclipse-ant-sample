@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item android:id="@android:id/background"
+        android:drawable="@drawable/oml_public_chat_item_audio_progress_background" />
+
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/oml_public_chat_item_audio_progress" />
+    </item>
+
+</layer-list><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_style_public_chat_item_audio_progress.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_style_public_chat_item_audio_progress.xml -->

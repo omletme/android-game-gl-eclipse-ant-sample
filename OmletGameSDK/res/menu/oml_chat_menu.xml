@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/new_chat"
+        android:title="new chat"
+        app:showAsAction="always"/>-->
+
+    <item android:id="@+id/chat_menu_settings"
+        android:title="Chat Settings"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/chat_menu_members"
+        android:title="Chat Members"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/chat_menu_get_link"
+        android:title="Get invitation link"
+        android:showAsAction="never"/>
+
+    <item android:id="@+id/gallery"
+        android:title="@string/gallery"
+        android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/chat_menu_leave"
+        android:title="Leave Chat"
+        android:showAsAction="never"/>
+
+
+</menu><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/menu/oml_chat_menu.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/menu/oml_chat_menu.xml -->

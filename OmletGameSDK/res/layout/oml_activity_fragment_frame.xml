@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/activity_root">
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_activity_fragment_frame.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_activity_fragment_frame.xml -->

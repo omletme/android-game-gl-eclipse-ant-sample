@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="Theme.Transparent" parent="android:Theme.Holo">
+                <item name="android:windowIsTranslucent">true</item>
+                <item name="android:windowBackground">@android:color/transparent</item>
+                <item name="android:windowContentOverlay">@null</item>
+                <item name="android:windowNoTitle">true</item>
+                <item name="android:backgroundDimEnabled">false</item>
+        </style>
+</resources>

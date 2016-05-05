@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true"
+    android:gravity="bottom">
+    <TextView
+        android:id="@+id/loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="11sp"/>
+    <View
+        android:id="@+id/dot_1"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/busy_dot"/>
+    <View
+        android:id="@+id/dot_2"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/busy_dot"/>
+    <View
+        android:id="@+id/dot_3"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/busy_dot"/>
+</LinearLayout>
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-cards/src/main/res/layout/view_busy_indicator.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/layout/view_busy_indicator.xml -->

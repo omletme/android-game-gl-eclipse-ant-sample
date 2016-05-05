@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+
+    android:layout_height="match_parent">
+    
+    <ImageButton android:id="@+id/quit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/omp_btn_miniview_close"/>
+
+    <TextView android:id="@+id/send_message_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/quit_button"
+        android:lines="2"
+        android:ellipsize="end"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="7dp"
+        android:textColor="#cbcbcb"
+        android:textSize="18sp" />
+
+    <mobisocial.omlib.ui.view.RecyclerView android:id="@+id/sticker_preview_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sticker_preview_list_height"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:background="#F2F3F5"
+        android:layout_alignParentBottom="true"/>
+
+    <mobisocial.omlib.ui.util.AutofitRecyclerView android:id="@+id/sticker_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:columnWidth="70dp"
+        android:layout_above="@id/sticker_preview_list"/>
+
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/sticker_overlay_view.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/sticker_overlay_view.xml -->

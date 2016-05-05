@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/contact_picker_menu_add"
+        android:title="Add"
+        android:showAsAction="always" />
+
+
+</menu><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/menu/oml_contact_picker.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/menu/oml_contact_picker.xml -->

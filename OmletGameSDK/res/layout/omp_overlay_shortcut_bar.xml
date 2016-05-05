@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/shortcut_bar"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Space android:id="@+id/spacer_record" android:layout_weight="1" android:layout_height="60dp" android:layout_width="25dp"></Space>
+            <LinearLayout
+                android:id="@+id/shortcut_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <RelativeLayout
+                    android:id="@+id/shortcut_record_background"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/omp_omplay_switch_background">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/omp_ic_switch_record"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="8sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="32dp"
+                        android:textColor="@android:color/white"
+                        android:text="@string/omp_button_record_video" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Space  android:id="@+id/spacer_camera" android:layout_weight="1" android:layout_height="60dp" android:layout_width="50dp"></Space>
+            <LinearLayout
+                android:id="@+id/shortcut_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <RelativeLayout
+                    android:id="@+id/shortcut_camera_background"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/omp_omplay_switch_background">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/omp_ic_switch_screenshot"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="8sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="32dp"
+                        android:textColor="@android:color/white"
+                        android:text="@string/omp_button_screenshot" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Space android:id="@+id/spacer_stream" android:layout_weight="1" android:layout_height="60dp" android:layout_width="50dp"></Space>
+            <LinearLayout
+                    android:id="@+id/shortcut_stream"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                <RelativeLayout
+                        android:id="@+id/shortcut_stream_background"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/omp_omplay_switch_background">
+                    <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/omp_ic_switch_stream"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="fitCenter" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="8sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="32dp"
+                            android:textColor="@android:color/white"
+                            android:text="@string/omp_button_stream" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Space android:id="@+id/spacer_watch" android:layout_weight="1" android:layout_height="60dp" android:layout_width="50dp"></Space>
+            <LinearLayout
+                    android:id="@+id/shortcut_watch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                <RelativeLayout
+                        android:id="@+id/shortcut_watch_background"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/omp_omplay_switch_background">
+                    <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/omp_ic_switch_watch"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="fitCenter" />
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="8sp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="32dp"
+                            android:textColor="@android:color/white"
+                            android:text="@string/omp_button_watch" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Space android:id="@+id/spacer_trash" android:layout_weight="1" android:layout_height="60dp" android:layout_width="50dp"></Space>
+            <LinearLayout
+                android:id="@+id/shortcut_trash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <RelativeLayout
+                    android:id="@+id/shortcut_trash_background"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/omp_omplay_switch_background">
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/omp_ic_switch_close"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitCenter" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="8sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="32dp"
+                        android:textColor="@android:color/white"
+                        android:text="@string/omp_button_close" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Space android:layout_weight="1" android:layout_height="60dp" android:layout_width="25dp"></Space>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            android:text="@string/omp_tool_selection_instruction"/>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omp_overlay_shortcut_bar.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omp_overlay_shortcut_bar.xml -->

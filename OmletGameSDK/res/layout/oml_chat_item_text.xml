@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textColor="@color/oml_chat_bubble_text"
+            android:textSize="14sp"/>
+
+</merge><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_chat_item_text.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_chat_item_text.xml -->

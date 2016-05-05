@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape>
+            <corners android:radius="@dimen/button_default_radius" />
+            <solid android:color="@color/omlet_blue_button_onclick"/>
+        </shape>
+    </item>
+    <item android:state_selected="true" >
+        <shape>
+            <corners android:radius="@dimen/button_default_radius" />
+            <solid android:color="@color/omlet_blue_button_onclick"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/button_default_radius" />
+            <solid android:color="@color/omlet_blue"/>
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_shape_button_omlet_blue_rounded_corner.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_shape_button_omlet_blue_rounded_corner.xml -->

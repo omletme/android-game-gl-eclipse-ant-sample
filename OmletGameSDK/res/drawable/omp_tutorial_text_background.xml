@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="4dip" />
+    <solid android:color="@color/yellow_background_f6c82a"/>
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_tutorial_text_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_tutorial_text_background.xml -->

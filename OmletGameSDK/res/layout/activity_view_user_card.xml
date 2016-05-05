@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_root"
+    android:background="#00000000">
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-cards/src/main/res/layout/activity_view_user_card.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/layout/activity_view_user_card.xml -->

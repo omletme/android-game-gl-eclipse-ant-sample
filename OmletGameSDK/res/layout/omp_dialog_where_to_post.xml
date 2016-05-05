@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|bottom"
+    android:background="@color/oml_transparent_black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/omlet_blue"
+        android:text="@string/omp_upload_to_chat"
+        android:textColor="@android:color/white"
+        android:id="@+id/upload_to_chat_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/omlet_blue"
+        android:text="@string/omp_upload_to_forum"
+        android:textColor="@android:color/white"
+        android:id="@+id/upload_to_forum_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/omlet_blue"
+        android:text="@string/omp_cancel"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/upload_cancel_button" />
+
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omp_dialog_where_to_post.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omp_dialog_where_to_post.xml -->

@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shape="line">
+
+    <stroke android:width="4dp" android:color="@color/oml_omlet_blue"/>
+    <corners android:radius="2dp" />
+</shape><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_public_chat_item_audio_progress_play.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_public_chat_item_audio_progress_play.xml -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#2489A9" />
+            <size android:width="@dimen/widget_bubble_diameter" android:height="@dimen/widget_bubble_diameter" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2eacd4" />
+            <size android:width="@dimen/widget_bubble_diameter" android:height="@dimen/widget_bubble_diameter" />
+        </shape>
+    </item>
+
+
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/oml_send_recording_circle.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/oml_send_recording_circle.xml -->

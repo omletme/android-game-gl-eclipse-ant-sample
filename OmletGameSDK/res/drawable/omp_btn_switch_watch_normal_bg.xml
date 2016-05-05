@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/omp_omplay_switch_background"
+    android:insetTop="0px"
+    android:insetRight="0px"
+    android:insetBottom="0px"
+    android:insetLeft="0px" /><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_btn_switch_watch_normal_bg.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_btn_switch_watch_normal_bg.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63dp"
+    android:background="@android:color/transparent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="54dp"
+        android:background="@drawable/oml_clickable_white_background"></View>
+
+    <mobisocial.omlib.ui.view.ProfileImageView
+        android:id="@+id/picture"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="26dp"
+        android:layout_alignParentLeft="true"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_toRightOf="@id/picture"
+        android:layout_marginLeft="13dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/feed_name_and_kind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_group"
+            android:textSize="18sp"
+            android:textColor="@color/oml_group_number_view_bg"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_feed_create_group_item.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_feed_create_group_item.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        style="@style/view_group_top_bar">
+        <ImageButton
+            style="@style/image_button_top_bar_back"/>
+        <LinearLayout
+            style="@style/view_group_top_bar_menu"></LinearLayout>
+        <TextView
+            style="@style/text_top_bar_title"
+            android:text="@string/members"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:visibility="gone">
+        <TextView android:id="@+id/chat_members_add"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/add_contacts_to_chat"
+            android:textColor="@color/oml_chat_bubble_text"
+            android:gravity="center"
+            android:background="@drawable/oml_chat_member_add_contact"/>
+    </LinearLayout>
+    <mobisocial.omlib.ui.view.RecyclerView
+        android:id="@+id/chat_members_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_fragment_chat_members.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_fragment_chat_members.xml -->

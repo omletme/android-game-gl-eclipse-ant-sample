@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <plurals name="omp_days_ago">
+        <item quantity="other">%1$s天前</item>
+    </plurals>
+    <plurals name="omp_hours_ago">
+        <item quantity="other">%1$s小时前</item>
+    </plurals>
+    <plurals name="omp_minutes">
+        <item quantity="other">分钟</item>
+    </plurals>
+    <plurals name="omp_seconds">
+        <item quantity="other">秒</item>
+    </plurals>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="add_contacts">新增联系人</string>
+    <string name="add_contacts_confirm">Did you want to add the %1$d contacts you selected?</string>
+    <string name="add_contacts_query">新增联系人？</string>
+    <string name="add_contacts_to_chat">+ Add contacts to chat</string>
+    <string name="add_friend">加为好友</string>
+    <string name="add_friends">新增好友</string>
+    <string name="add_members">新增成员</string>
+    <string name="add_more_friends">Add more friends</string>
+    <string name="add_to_chat">Add to chat</string>
+    <string name="add_to_contacts">加为好友</string>
+    <string name="add_to_contacts_lowercase">Add to contacts</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_edit">编辑</string>
+    <string name="btn_intro_get_card">取得卡片</string>
+    <string name="btn_okay">好</string>
+    <string name="btn_share">分享</string>
+    <string name="cant_create_image">取得卡片分享连结时发生问题，请待卡片显示完整后再试一次</string>
+    <string name="card_default_message">"This game is really fun! Let's play together ^_^"</string>
+    <string name="card_demo_message">想邀请更多的小伙伴吗？快点此处输入讯息！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="choose_from_gallery">相片库</string>
+    <string name="close">关闭</string>
+    <string name="copied_link_to_clipboard">Copied link to clipboard.</string>
+    <string name="copy">复制</string>
+    <string name="copy_group_link">复制聊天室网址</string>
+    <string name="create_group">发起群组</string>
+    <string name="delete">删除</string>
+    <string name="delete_group">删除群组</string>
+    <string name="delete_group_message">确定将\"%1$s\"群组删除？</string>
+    <string name="delete_post_error">网络不给力，请检查网络再试一次</string>
+    <string name="done">完成</string>
+    <string name="download_game_and_add_my_omlet_id">现在立即下载游戏，并加我为好友吧！</string>
+    <string name="enter_contact_hint">输入好友的社群号</string>
+    <string name="enter_group_name">输入群组名称</string>
+    <string name="enter_group_name_message">请输入你的群组名称！</string>
+    <string name="error_joining_chat">Error joining chat.</string>
+    <string name="error_logging_out">Error logging you out</string>
+    <string name="failed_to_get_sharing_link">Failed to get link for sharing, please check your network and try again.</string>
+    <string name="feed_created">聊天室创建成功！</string>
+    <string name="friends">好友</string>
+    <string name="gallery">Gallery</string>
+    <string name="group">群组</string>
+    <string name="group_name">群组名称</string>
+    <string name="group_setting">群组设置</string>
+    <string name="groups">聊天室</string>
+    <string name="have_no_friends">你尚未有任何好友！</string>
+    <string name="hold_to_talk">按住说话</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="intro_description">立即分享卡片吧！只要一个步骤，小伙伴们就能快速加入，一起分享你快乐！</string>
+    <string name="intro_title">如何让小伙伴快速加入？</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="invalid_params">Invalid parameters passed</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="join_game_chat">快来加入我的游戏聊天室，跟我一起边打游戏边聊天超畅快！%1$s</string>
+    <string name="join_omlet_chat">Join my Omlet group chat! %1$s</string>
+    <string name="joined_the_chat">Joined the chat.</string>
+    <string name="just_a_moment">稍待一会…</string>
+    <string name="just_now">现在</string>
+    <string name="last_message">Last Message</string>
+    <string name="leave">离开</string>
+    <string name="leave_chat">离开聊天室？</string>
+    <string name="leave_chat_confirm">您确定离开\"%1$s\"聊天室？</string>
+    <string name="leave_group">离开群组</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="loading_card">卡片读取中</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="logged_out">Logged you out.</string>
+    <string name="logging_you_out">Logging you out</string>
+    <string name="me">我</string>
+    <string name="members">成员</string>
+    <string name="my_account">My account</string>
+    <string name="my_omlet_id">我的社群号：%1$s</string>
+    <string name="my_profile">我的个人页</string>
+    <string name="n_messages_in_m_chats">%1$d messages in %2$d chats</string>
+    <string name="n_new_messages">%1$d messages</string>
+    <string name="name">Name</string>
+    <string name="need_camera_permission">请开启相机权限！</string>
+    <string name="need_record_audio_permission">请开启麦克风权限！</string>
+    <string name="need_storage_permission">请开启存储空间权限！</string>
+    <string name="new_chat_name_hint">设置群组名称</string>
+    <string name="new_message">New message</string>
+    <string name="new_messages">New messages</string>
+    <string name="new_nick_hint">New Nickname</string>
+    <string name="new_profile_picture">设定大头照</string>
+    <string name="no_feed_specified">No feed specified</string>
+    <string name="no_user_specified">No user specified</string>
+    <string name="notification_setting">通知设置</string>
+    <string name="ok">确定</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_already_have_account">Already have account! (Sign in not required)</string>
+    <string name="oml_auth_error">Error Authenticating. Please Try again</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_default">预设值</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_feed_remove_error">无法移除聊天室的创建者</string>
+    <string name="oml_logging_in">登入中</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_message_shared">分享成功！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_msg_all_number_invalid">Omlet ID cannot be all numbers</string>
+    <string name="oml_msg_already_have">You already have Omlet ID!</string>
+    <string name="oml_msg_exist">Omlet ID is already taken, please try another.</string>
+    <string name="oml_msg_first_word_invalid">Omlet ID must start with letter (a-z) or number (0-9)</string>
+    <string name="oml_msg_invalid">Omlet ID must be 6-20 characters long. (letters a-z, numbers 0-9, dot, and underscore)</string>
+    <string name="oml_msg_something_wrong">Something went wrong. Please try again later.</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_no_match">未查询到此用户！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="oml_please_wait">请稍待…</string>
+    <string name="oml_was_added">%1$s已加入</string>
+    <string name="oml_was_removed">%1$s已退出</string>
+    <string name="oml_you_were_added">你已加入</string>
+    <string name="oml_you_were_removed">你已退出</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="omlet_id">Omlet ID</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="omp_Likes">赞</string>
+    <string name="omp_Views">观看</string>
+    <string name="omp_add_tag">添加话题</string>
+    <string name="omp_already_signed_in">已登入！</string>
+    <string name="omp_are_following_you">都开始关注你</string>
+    <string name="omp_background">背景上传</string>
+    <string name="omp_bitmapLoader_problem_saving_screenshot">截屏储存时发生了一些问题，请再试一次。</string>
+    <string name="omp_bitmapLoader_saved_successfully">储存成功！</string>
+    <string name="omp_button_chat">聊</string>
+    <string name="omp_button_close">关闭</string>
+    <string name="omp_button_record_video">录制</string>
+    <string name="omp_button_saving">储存中</string>
+    <string name="omp_button_screenshot">截屏</string>
+    <string name="omp_button_stream">广播</string>
+    <string name="omp_button_watch">看</string>
+    <string name="omp_cancel">取消</string>
+    <string name="omp_channel">频道 %1$d</string>
+    <string name="omp_check_network">请检查您的网路连线</string>
+    <string name="omp_clear_tag">清除话题</string>
+    <string name="omp_close">关闭</string>
+    <string name="omp_contact_add_operation_failed">加为好友失败</string>
+    <string name="omp_contact_added">已加为好友</string>
+    <string name="omp_contact_remove_operation_failed">删除好友失败</string>
+    <string name="omp_currently_following_button">已关注</string>
+    <string name="omp_delete">删除</string>
+    <string name="omp_dialog_cancel">取消</string>
+    <string name="omp_dialog_ok">确定</string>
+    <string name="omp_display_name">昵称</string>
+    <string name="omp_dummy_id">假号</string>
+    <string name="omp_edit">编辑</string>
+    <string name="omp_edit_description">编辑说明</string>
+    <string name="omp_edit_title">编辑标题</string>
+    <string name="omp_enter_omlet_id">输入我的社群号</string>
+    <string name="omp_error_not_signed_in">尚未登入</string>
+    <string name="omp_find_people">发掘玩家</string>
+    <string name="omp_finish">完成</string>
+    <string name="omp_followUserFragment_omlet_id">"Omlet ID: "</string>
+    <string name="omp_followUserFragment_your_id">"您的ID: "</string>
+    <string name="omp_follow_button">关注</string>
+    <string name="omp_follow_user_title">关注玩家</string>
+    <string name="omp_following">关注</string>
+    <string name="omp_followingFragment_superplayer">superplayer</string>
+    <string name="omp_future">未来</string>
+    <string name="omp_games_folder">游戏</string>
+    <string name="omp_go_to_video_page">开启视频页</string>
+    <string name="omp_id">号</string>
+    <string name="omp_is_following_you">开始关注你</string>
+    <string name="omp_legend_of_the_turret">街机视频</string>
+    <string name="omp_liked_your_post">喜欢你的贴文</string>
+    <string name="omp_likes">赞</string>
+    <string name="omp_login_baidu_first">您需要先登入百度帐号！</string>
+    <string name="omp_mediaItemAdapter_description_for_video">"description for video "</string>
+    <string name="omp_mediaItemAdapter_poster">"poster "</string>
+    <string name="omp_mediaItemAdapter_title_for_video">"title for video "</string>
+    <string name="omp_message_sent">讯息已传送！</string>
+    <string name="omp_min_ago">%1$s分钟前</string>
+    <string name="omp_miui_popup_warning_checkbox">我已开启，不需要再显示此视窗</string>
+    <string name="omp_miui_popup_warning_desc">若您无法看到悬浮按钮，请至您手机桌面开启安全中心，依循步骤启用显示悬浮窗：\n\n安全中心>授权管理>应用权限管理>权限管理>显示悬浮窗>点击启用</string>
+    <string name="omp_miui_popup_warning_ok">了解</string>
+    <string name="omp_miui_popup_warning_setting">前往启用</string>
+    <string name="omp_miui_popup_warning_title">悬浮窗权限</string>
+    <string name="omp_need_a_name_error">请添加昵称！</string>
+    <string name="omp_need_a_title_error">请添加标题！</string>
+    <string name="omp_no_notifications">您还没有任何通知喔！</string>
+    <string name="omp_no_players_followed_instruction">尚未关注任何玩家！</string>
+    <string name="omp_no_such_user">查无此用户</string>
+    <string name="omp_not_connected">无法连线</string>
+    <string name="omp_notificationItemAdapter_and_other">和其他</string>
+    <string name="omp_notificationItemAdapter_people">个人</string>
+    <string name="omp_notifications">通知</string>
+    <string name="omp_now">现在</string>
+    <string name="omp_omMediaController_share_dialog_copy">复制</string>
+    <string name="omp_omMediaController_share_dialog_start_time">开始时间</string>
+    <string name="omp_omMediaController_share_dialog_title">分享这则视频</string>
+    <string name="omp_omletGameSDK_recording_not_supported">您的装置不支持录制视频！</string>
+    <string name="omp_omplay_button_upload_failed">失败</string>
+    <string name="omp_omplay_button_upload_success">完成</string>
+    <string name="omp_open_18183">编辑视频详细</string>
+    <string name="omp_open_18183_screenshot">编辑截图细节</string>
+    <string name="omp_overlayBarService_out_of_space">装置容量几乎已满，请清理后再录制新视频</string>
+    <string name="omp_overlayBarService_recording_failed">没有什么记录。</string>
+    <string name="omp_overlayBarService_recording_started">录制中</string>
+    <string name="omp_please_try_upload_again">上传失败，请再试一次。</string>
+    <string name="omp_please_try_upload_again_network_timeout">网络不给力，请稍后再试。</string>
+    <string name="omp_please_wait">请稍待…</string>
+    <string name="omp_popular">精彩</string>
+    <string name="omp_post_deleted">此贴文已被删除。</string>
+    <string name="omp_powered_by_omlet">由蛋宝提供技术支持</string>
+    <string name="omp_preview">预览</string>
+    <string name="omp_profile">个人页</string>
+    <string name="omp_profileFragment_enter_profile_name">输入昵称</string>
+    <string name="omp_profileFragment_following_no_one_yet">尚未关注！</string>
+    <string name="omp_profileFragment_hint_profile_name">更改昵称</string>
+    <string name="omp_profileFragment_me">我</string>
+    <string name="omp_profileFragment_no_followers_yet">尚未有粉丝！</string>
+    <string name="omp_profileFragment_no_videos_yet">尚未有贴文！</string>
+    <string name="omp_profileFragment_profile">%1$s的个人页</string>
+    <string name="omp_profileFragment_unknown_no_followers_yet">尚未有粉丝！</string>
+    <string name="omp_profileFragment_x_has_no_followers">%1$s尚未有粉丝！</string>
+    <string name="omp_profile_tab_followers">粉絲</string>
+    <string name="omp_profile_tab_following">关注</string>
+    <string name="omp_prompt_delete_post_msg">确定是否要删除这则贴文？</string>
+    <string name="omp_prompt_report_post_msg">确定是否要举报这则贴文？</string>
+    <string name="omp_prompt_report_post_title">举报这则贴文</string>
+    <string name="omp_register_failed">网络不太稳定，请稍候再试！</string>
+    <string name="omp_report">检举这则贴文</string>
+    <string name="omp_reportReason_copyright_infringement">侵犯著作权</string>
+    <string name="omp_reportReason_indecent_content">不雅内容</string>
+    <string name="omp_reportReason_other">其他</string>
+    <string name="omp_reportReason_spam">垃圾广告</string>
+    <string name="omp_retry">重试</string>
+    <string name="omp_save">储存</string>
+    <string name="omp_save_to_device">储存</string>
+    <string name="omp_saving_to_device_message">请稍待…</string>
+    <string name="omp_saving_to_device_title">下载视频到手机相簿中</string>
+    <string name="omp_screenshot_could_not_be_found">截屏错误，请再试一次。</string>
+    <string name="omp_screenshot_details_following">关注</string>
+    <string name="omp_search_id">搜索ID</string>
+    <string name="omp_search_id_of_players_hint">搜索ID关注玩家</string>
+    <string name="omp_send_sticker_to">传送讯息至\"%1$s\"</string>
+    <string name="omp_send_to_chat">发送到聊天室</string>
+    <string name="omp_sent_a_sticker">传送一张贴图</string>
+    <string name="omp_sent_screenshot">传送一张截屏</string>
+    <string name="omp_sent_url">传送一则网址</string>
+    <string name="omp_sent_video">传送一则视频</string>
+    <string name="omp_sent_voice_note">传送一则语音讯息</string>
+    <string name="omp_set_omlet_id">设置我的社群号</string>
+    <string name="omp_set_prof_pic">设置头像</string>
+    <string name="omp_settingsFragment_placeholder">设置</string>
+    <string name="omp_share">分享至</string>
+    <string name="omp_shareToPeopleFragment_follower">粉絲</string>
+    <string name="omp_shareToPeopleFragment_following">关注</string>
+    <string name="omp_share_to_friends">分享</string>
+    <string name="omp_share_to_people_instruction">抱歉您尚未新增好友，请利用搜索ID新增好友并进行分享！</string>
+    <string name="omp_share_with_other_people">分享至其他</string>
+    <string name="omp_share_with_people">分享給其他人</string>
+    <string name="omp_start_end_zero_time">00:00 / 00:00</string>
+    <string name="omp_stub_end_time">1:42:31</string>
+    <string name="omp_stub_game_name"/>
+    <string name="omp_stub_like_count">34483</string>
+    <string name="omp_stub_share_link">https://omlet.me/stub_lalala</string>
+    <string name="omp_stub_time_label">stub time</string>
+    <string name="omp_stub_title">stub Title</string>
+    <string name="omp_stub_user_id">stub User ID</string>
+    <string name="omp_stub_user_id_or_game_name"/>
+    <string name="omp_stub_user_name_or_game_name"/>
+    <string name="omp_stub_view_count">124847326</string>
+    <string name="omp_stub_yesterday_afternoon_time">昨日 下午41:10</string>
+    <string name="omp_tagItemAdapter_filter">找话题</string>
+    <string name="omp_tag_fun">搞笑</string>
+    <string name="omp_tag_help">求助</string>
+    <string name="omp_tag_newcomer">新手</string>
+    <string name="omp_tag_superplay">炫技</string>
+    <string name="omp_tag_tips">攻略</string>
+    <string name="omp_title_back">返回</string>
+    <string name="omp_title_next">下一步</string>
+    <string name="omp_title_screenshot_upload">上传截屏</string>
+    <string name="omp_title_video_upload">上传视频</string>
+    <string name="omp_toast_save_failed">截屏无法储存！</string>
+    <string name="omp_toast_save_succeeded">截屏已储存至装置！</string>
+    <string name="omp_tool_selection_instruction">拖曳以切换功能键</string>
+    <string name="omp_turn_off">关闭</string>
+    <string name="omp_turn_off_consequences">如果关闭通知您将可能遗漏重要的讯息通知！</string>
+    <string name="omp_turn_off_notification_prompt">关闭聊天室讯息通知？</string>
+    <string name="omp_turn_off_notifications_for">关闭来自\"%1$s\"的讯息通知？</string>
+    <string name="omp_tutorial_click_here_to_change_name">点此更改昵称！</string>
+    <string name="omp_tutorial_click_here_to_change_picture">点此设定头像！</string>
+    <string name="omp_tutorial_disable_tutorial">不再显示教学提示</string>
+    <string name="omp_tutorial_overlay_bar_ok">了解</string>
+    <string name="omp_tutorial_overlay_bar_selection_instruction1">展开选单时，点击按键即可开始录影。</string>
+    <string name="omp_tutorial_overlay_bar_selection_instruction2">展开选单时，将按键拖至下方快速切换功能。</string>
+    <string name="omp_tutorial_set_profile_information">快来设定个人页吧！</string>
+    <string name="omp_undo_all">恢复初始</string>
+    <string name="omp_unupload_video_deleted">视频已删除</string>
+    <string name="omp_unupload_video_dialog_action_delete">删除</string>
+    <string name="omp_unupload_video_dialog_action_edit">编辑</string>
+    <string name="omp_unupload_video_dialog_message">您可以选择删除之前录制但并未上传的视频，或者重新编辑上传它。</string>
+    <string name="omp_unupload_video_dialog_title">未完成上传之视频</string>
+    <string name="omp_updateCompleteActivity_copied_text">已复制</string>
+    <string name="omp_updateCompleteActivity_copy_link">复制链接</string>
+    <string name="omp_updateCompleteActivity_copy_share_link">复制链接</string>
+    <string name="omp_upload">上传</string>
+    <string name="omp_upload_agree_register">同意以您的百度帐号启用蛋宝服务上传功能</string>
+    <string name="omp_upload_complete">上传成功！</string>
+    <string name="omp_upload_desc">即将透过蛋宝完成发布，立即前往与小伙伴们进行热烈地讨论！</string>
+    <string name="omp_upload_failed">上传失败</string>
+    <string name="omp_upload_failed_wrong_system_time">请更新您的系统时间，以启用上传功能！</string>
+    <string name="omp_upload_logout_auth_error">认证错误，请再试一次</string>
+    <string name="omp_upload_media_no_dk_id">无法取得您的ID，请尝试登出百度帐号并重新登入。</string>
+    <string name="omp_upload_msg">上传中…</string>
+    <string name="omp_upload_successful">上传成功!</string>
+    <string name="omp_upload_to_chat">发布到群组聊天</string>
+    <string name="omp_upload_to_forum">发布到论坛</string>
+    <string name="omp_upload_video_edit_name_description">将以此用户名发布视频/截屏至论坛，且不可再更改用户名</string>
+    <string name="omp_upload_video_edit_name_hint">添加用户名</string>
+    <string name="omp_upload_video_edit_name_registered_description">将以此用户名发布视频/截屏至论坛</string>
+    <string name="omp_upload_video_edit_text_description_hint">添加内文</string>
+    <string name="omp_upload_video_edit_text_title_hint">添加标题</string>
+    <string name="omp_upload_video_name_error_access_error">网络不给力，请稍后再试</string>
+    <string name="omp_upload_video_name_error_empty">请输入用户名</string>
+    <string name="omp_upload_video_name_error_existed">用户名已被使用，请使用其他用户名</string>
+    <string name="omp_upload_video_name_error_invalid">用户名无效</string>
+    <string name="omp_upload_video_name_label">用户名</string>
+    <string name="omp_upload_video_upload_button_text">上传</string>
+    <string name="omp_upload_warning_msg_no_network_connection">请确认您的网络连线状况。</string>
+    <string name="omp_upload_warning_msg_no_wifi_data">提醒您：透过手机网络上传可能会产生额外费用。</string>
+    <string name="omp_upload_warning_option_continue">继续</string>
+    <string name="omp_upload_warning_option_wifi_settings">无线网络设置</string>
+    <string name="omp_upload_warning_title_video">视频上传</string>
+    <string name="omp_videoDetailsFragment_error_loading_video">视频载入错误，请再试一次！</string>
+    <string name="omp_videoDownloader_downloading_video">储存中</string>
+    <string name="omp_videoDownloader_please_wait">请稍待…</string>
+    <string name="omp_videoDownloader_problem_downloading_video">储存影片时发生了一些问题，请再试一次。</string>
+    <string name="omp_videoDownloader_saved_successfully">储存成功!</string>
+    <string name="omp_videoEditFragment_end_time_must_be_larger_than_start_time">结束时间必须大于起始时间</string>
+    <string name="omp_videoEditFragment_fail_to_trim">剪辑视频失败。视频可能损毁，請再录制新视频。</string>
+    <string name="omp_videoEditFragment_finished_trimming">结束剪辑</string>
+    <string name="omp_videoEditFragment_please_wait">请稍待…</string>
+    <string name="omp_videoEditFragment_processing">处理中…</string>
+    <string name="omp_videoEditorActivity_close">取消编辑，若要再次编辑请点击录影键。</string>
+    <string name="omp_videoPreviewFragment_dialog_video_upload_limit_message">您可上传的视頻长度最大为 %s，请利用剪辑工具进行编辑。</string>
+    <string name="omp_videoPreviewFragment_dialog_video_upload_limit_positive">剪辑</string>
+    <string name="omp_videoPreviewFragment_dialog_video_upload_limit_title">上传限制</string>
+    <string name="omp_videoPreviewFragment_feature_requires_api_18_plus">This feature requires API Level 18+</string>
+    <string name="omp_videoPreviewFragment_out_of_space">装置容量几乎已满，请清理装置空间后再执行动作</string>
+    <string name="omp_video_clip">剪辑视频</string>
+    <string name="omp_video_details_cannot_open_video">视频无法播放！</string>
+    <string name="omp_video_details_download">下载游戏</string>
+    <string name="omp_video_length_too_long_dialog_description">您所录制的视频已超过 %s，录制后将进行剪辑。</string>
+    <string name="omp_video_length_too_short_dialog_description">您所录制的视频长度不足%d秒钟，将继续录制。</string>
+    <string name="omp_video_preview_toast_save_failed">视频无法储存！</string>
+    <string name="omp_video_preview_toast_save_succeeded">视频已成功下载到您的手机相簿。</string>
+    <string name="omp_video_view_cannot_play_message">系统出现错误，您可以选择稍后再看，或者再试一次</string>
+    <string name="omp_video_view_cannot_play_title">播放出现错误</string>
+    <string name="omp_video_view_cannot_play_try_again">再试一次</string>
+    <string name="omp_video_view_cannot_play_watch_later">稍后再看</string>
+    <string name="omp_video_view_video_corrupted_back_to_game">回到游戏画面</string>
+    <string name="omp_video_view_video_corrupted_message">您的视频已损坏，请回到游戏画面，并重新录制一段视频</string>
+    <string name="omp_video_view_video_corrupted_title">系統出现错误</string>
+    <string name="omp_videosByTagFragment_videos_tagged">"话题: %1$s"</string>
+    <string name="omp_views">观看</string>
+    <string name="omp_watchVideoActivity_error_loading_video">视频载入错误，请再试一次。</string>
+    <string name="omp_watchVideoActivity_invalid_video">无效视频</string>
+    <string name="omp_watchVideoActivity_loading_video">载入视频</string>
+    <string name="omp_watchVideoActivity_please_wait">请稍待…</string>
+    <string name="omp_yesterday">昨天</string>
+    <string name="omp_you_are_already_following">已关注</string>
+    <string name="omp_your_id">您的ID:</string>
+    <string name="omp_zero">0</string>
+    <string name="omp_zero_time">00:00</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="one_hour">1小时</string>
+    <string name="one_minute">1分钟</string>
+    <string name="please_try_again">Please try again!</string>
+    <string name="powered_by_omlet">由蛋堡提供技术支持</string>
+    <string name="private_chat_room">私人聊天室</string>
+    <string name="public_chat">公开聊天室</string>
+    <string name="receive_new_message_noti">接受新讯息通知</string>
+    <string name="recording_error">录音发生错误</string>
+    <string name="recording_too_short">讯息太短</string>
+    <string name="release_to_cancel">松开取消</string>
+    <string name="release_to_send">松开送出</string>
+    <string name="remove">移除</string>
+    <string name="remove_confirm">您确定从这个聊天室移除%1$s？</string>
+    <string name="remove_friend">删除好友</string>
+    <string name="remove_member">移除%1$s？</string>
+    <string name="search_contact_hint">搜索好友的社群号</string>
+    <string name="search_contacts">搜索联系人</string>
+    <string name="search_groups">搜索聊天室…</string>
+    <string name="send_invite_message">发送邀请到其它社交网络</string>
+    <string name="send_invite_to">发送邀请到…</string>
+    <string name="send_omlet_id_message">发送我的社群号到其它社交网络</string>
+    <string name="sent_a_message">%1$s sent a message</string>
+    <string name="sent_a_picture">%1$s sent a picture</string>
+    <string name="sent_text">%1$s: %2$s</string>
+    <string name="set_your_name">Set your name</string>
+    <string name="setting_profpic_failed">setting profile picture failed</string>
+    <string name="share">分享</string>
+    <string name="share_error">Could not find any apps that are able to share data</string>
+    <string name="share_failed">Failed to share file</string>
+    <string name="share_group">分享这个群组</string>
+    <string name="share_group_via">分享这个群组到…</string>
+    <string name="share_link">Share link</string>
+    <string name="share_picture">Share Picture</string>
+    <string name="share_profile">Share invitation card</string>
+    <string name="share_text">Share text</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="share_via">分享到</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="slide_up_to_cancel">向上滑，取消发送</string>
+    <string name="some_contacts_selected">%1$d contacts selected</string>
+    <string name="some_days">%1$d天</string>
+    <string name="some_hours">%1$s小时</string>
+    <string name="some_minutes">%1$d分钟</string>
+    <string name="someone_is_typing">%1$s正在输入…</string>
+    <string name="someone_likes_this">%1$s喜欢</string>
+    <string name="someone_profile">%1$s的个人页</string>
+    <string name="someone_recording_audio">%1$s正在录音…</string>
+    <string name="someone_taking_picture">%1$s正在拍照…</string>
+    <string name="start_chat">开始聊天</string>
+    <string name="take_photo">相机</string>
+    <string name="tap_to_set_my_id">Tap to set my ID</string>
+    <string name="user_not_found">User not found</string>
+    <string name="wanna_add_friend">Do you want to add %s?</string>
+    <string name="wanna_join_chat">Do you want to join this chat?</string>
+    <string name="what_is_up">想说些什么？</string>
+    <string name="yesterday">昨天</string>
+    <string name="you_like_this">你喜欢</string>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="add_contacts">新增聯繫人</string>
+    <string name="add_contacts_confirm">Did you want to add the %1$d contacts you selected?</string>
+    <string name="add_contacts_query">新增聯繫人？</string>
+    <string name="add_contacts_to_chat">+ Add contacts to chat</string>
+    <string name="add_friend">加為好友</string>
+    <string name="add_friends">新增好友</string>
+    <string name="add_members">新增成員</string>
+    <string name="add_more_friends">Add more friends</string>
+    <string name="add_to_chat">Add to chat</string>
+    <string name="add_to_contacts">加為好友</string>
+    <string name="add_to_contacts_lowercase">Add to contacts</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_edit">編輯</string>
+    <string name="btn_intro_get_card">取得卡片</string>
+    <string name="btn_okay">好</string>
+    <string name="btn_share">分享</string>
+    <string name="cant_create_image">取得卡片分享連結時發生問題，請待卡片顯示完整後再試一次</string>
+    <string name="card_default_message">"This game is really fun! Let's play together ^_^"</string>
+    <string name="card_demo_message">想邀請更多的朋友嗎？快點此處輸入訊息！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="choose_from_gallery">相片庫</string>
+    <string name="close">關閉</string>
+    <string name="copied_link_to_clipboard">Copied link to clipboard.</string>
+    <string name="copy">複製</string>
+    <string name="copy_group_link">複製聊天室網址</string>
+    <string name="create_group">發起群組</string>
+    <string name="delete">刪除</string>
+    <string name="delete_group">刪除群組</string>
+    <string name="delete_group_message">確定將\"%1$s\"群組刪除？</string>
+    <string name="delete_post_error">請檢查網路連線並再試一次</string>
+    <string name="done">完成</string>
+    <string name="download_game_and_add_my_omlet_id">現在立即下載遊戲，並加我為好友吧！</string>
+    <string name="enter_contact_hint">輸入好友的社群號</string>
+    <string name="enter_group_name">輸入群組名稱</string>
+    <string name="enter_group_name_message">請輸入你的群組名稱！</string>
+    <string name="error_joining_chat">Error joining chat.</string>
+    <string name="error_logging_out">Error logging you out</string>
+    <string name="failed_to_get_sharing_link">Failed to get link for sharing, please check your network and try again.</string>
+    <string name="feed_created">聊天室創建成功！</string>
+    <string name="friends">好友</string>
+    <string name="gallery">Gallery</string>
+    <string name="group">群組</string>
+    <string name="group_name">群組名稱</string>
+    <string name="group_setting">群組設置</string>
+    <string name="groups">聊天室</string>
+    <string name="have_no_friends">你尚未有任何好友！</string>
+    <string name="hold_to_talk">按住說話</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="intro_description">立即分享卡片吧！只要一個步驟，朋友們就能快速加入，一起分享你快樂！</string>
+    <string name="intro_title">如何讓朋友快速加入？</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="invalid_params">Invalid parameters passed</string>
+    <string name="invite_friends">邀請好友</string>
+    <string name="join_game_chat">快來加入我的遊戲聊天室，跟我一起邊打遊​​戲邊聊天超暢快！%1$s</string>
+    <string name="join_omlet_chat">Join my Omlet group chat! %1$s</string>
+    <string name="joined_the_chat">Joined the chat.</string>
+    <string name="just_a_moment">稍待一會…</string>
+    <string name="just_now">現在</string>
+    <string name="last_message">Last Message</string>
+    <string name="leave">離開</string>
+    <string name="leave_chat">離開聊天室？</string>
+    <string name="leave_chat_confirm">您確定離開\"%1$s\"聊天室？</string>
+    <string name="leave_group">離開群組</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="loading_card">卡片讀取中</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="logged_out">Logged you out.</string>
+    <string name="logging_you_out">Logging you out</string>
+    <string name="me">我</string>
+    <string name="members">成員</string>
+    <string name="my_account">My account</string>
+    <string name="my_omlet_id">我的社群號：%1$s</string>
+    <string name="my_profile">我的個人頁</string>
+    <string name="n_messages_in_m_chats">%1$d messages in %2$d chats</string>
+    <string name="n_new_messages">%1$d messages</string>
+    <string name="name">Name</string>
+    <string name="need_camera_permission">請開啟相機權限！</string>
+    <string name="need_record_audio_permission">請開啟麥克風權限！</string>
+    <string name="need_storage_permission">請開啟儲存權限！</string>
+    <string name="new_chat_name_hint">設置群組名稱</string>
+    <string name="new_message">New message</string>
+    <string name="new_messages">New messages</string>
+    <string name="new_nick_hint">New Nickname</string>
+    <string name="new_profile_picture">設定大頭照</string>
+    <string name="no_feed_specified">No feed specified</string>
+    <string name="no_user_specified">No user specified</string>
+    <string name="notification_setting">通知設置</string>
+    <string name="ok">確定</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_already_have_account">Already have account! (Sign in not required)</string>
+    <string name="oml_auth_error">Error Authenticating. Please Try again</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_default">預設值</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_feed_remove_error">無法移除聊天室的創建者</string>
+    <string name="oml_logging_in">登入中</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_message_shared">分享成功！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_msg_all_number_invalid">Omlet ID cannot be all numbers</string>
+    <string name="oml_msg_already_have">You already have Omlet ID!</string>
+    <string name="oml_msg_exist">Omlet ID is already taken, please try another.</string>
+    <string name="oml_msg_first_word_invalid">Omlet ID must start with letter (a-z) or number (0-9)</string>
+    <string name="oml_msg_invalid">Omlet ID must be 6-20 characters long. (letters a-z, numbers 0-9, dot, and underscore)</string>
+    <string name="oml_msg_something_wrong">Something went wrong. Please try again later.</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_no_match">未查詢到此用戶！</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="oml_please_wait">請稍待…</string>
+    <string name="oml_was_added">%1$s已加入</string>
+    <string name="oml_was_removed">%1$s已退出</string>
+    <string name="oml_you_were_added">你已加入</string>
+    <string name="oml_you_were_removed">你已退出</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="omlet_id">Omlet ID</string>
+    <string name="omp_cancel">取消</string>
+    <string name="one_hour">1小時</string>
+    <string name="one_minute">1分鐘</string>
+    <string name="please_try_again">Please try again!</string>
+    <string name="powered_by_omlet">由蛋寶提供技術支持</string>
+    <string name="private_chat_room">私人聊天室</string>
+    <string name="public_chat">公開聊天室</string>
+    <string name="receive_new_message_noti">接受新訊息通知</string>
+    <string name="recording_error">錄音發生錯誤</string>
+    <string name="recording_too_short">訊息太短</string>
+    <string name="release_to_cancel">鬆開取消</string>
+    <string name="release_to_send">鬆開送出</string>
+    <string name="remove">移除</string>
+    <string name="remove_confirm">您確定從這個聊天室移除%1$s？</string>
+    <string name="remove_friend">刪除好友</string>
+    <string name="remove_member">移除%1$s？</string>
+    <string name="search_contact_hint">搜索好友的社群號</string>
+    <string name="search_contacts">搜索聯繫人</string>
+    <string name="search_groups">搜索聊天室…</string>
+    <string name="send_invite_message">發送邀請到其他社交網絡</string>
+    <string name="send_invite_to">發送邀請到…</string>
+    <string name="send_omlet_id_message">發送我的社群號到其他社交網絡</string>
+    <string name="sent_a_message">%1$s sent a message</string>
+    <string name="sent_a_picture">%1$s sent a picture</string>
+    <string name="sent_text">%1$s: %2$s</string>
+    <string name="set_your_name">Set your name</string>
+    <string name="setting_profpic_failed">setting profile picture failed</string>
+    <string name="share">分享</string>
+    <string name="share_error">Could not find any apps that are able to share data</string>
+    <string name="share_failed">Failed to share file</string>
+    <string name="share_group">分享這個群組</string>
+    <string name="share_group_via">分享這個群組到…</string>
+    <string name="share_link">Share link</string>
+    <string name="share_picture">Share Picture</string>
+    <string name="share_profile">Share invitation card</string>
+    <string name="share_text">Share text</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="share_via">分享到</string>
+    <!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/values-zh-rTW/values-zh-rTW.xml -->
+    <eat-comment/>
+    <string name="slide_up_to_cancel">向上滑，取消發送</string>
+    <string name="some_contacts_selected">%1$d contacts selected</string>
+    <string name="some_days">%1$d天</string>
+    <string name="some_hours">%1$s小時</string>
+    <string name="some_minutes">%1$d分鐘</string>
+    <string name="someone_is_typing">%1$s正在輸入…</string>
+    <string name="someone_likes_this">%1$s喜歡</string>
+    <string name="someone_profile">%1$s的個人頁</string>
+    <string name="someone_recording_audio">%1$s正在錄音…</string>
+    <string name="someone_taking_picture">%1$s正在拍照…</string>
+    <string name="start_chat">開始聊天</string>
+    <string name="take_photo">相機</string>
+    <string name="tap_to_set_my_id">Tap to set my ID</string>
+    <string name="user_not_found">User not found</string>
+    <string name="wanna_add_friend">Do you want to add %s?</string>
+    <string name="wanna_join_chat">Do you want to join this chat?</string>
+    <string name="what_is_up">想說些什麼？</string>
+    <string name="yesterday">昨天</string>
+    <string name="you_like_this">你喜歡</string>
+</resources>

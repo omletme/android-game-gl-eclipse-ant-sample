@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:fromYDelta="100%"
+    android:toYDelta="0%"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    /><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/anim/omp_slide_in.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/anim/omp_slide_in.xml -->

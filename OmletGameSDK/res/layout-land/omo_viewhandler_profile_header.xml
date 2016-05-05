@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerview"
+    android:tag="landscape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:id="@+id/picture_wrapper"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="19dp">
+
+            <mobisocial.omlib.ui.view.ProfileImageView
+                android:id="@+id/profile_pic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/camera_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:src="@drawable/oml_btn_creategroup_editgrouppic" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/right_wrapper_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+            <ToggleButton android:id="@+id/follow_button"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:minWidth="94dp"
+                android:layout_marginRight="22dp"
+                android:gravity="center"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                          android:textOff="@string/omp_follow_button"
+                          android:textOn="@string/omp_following"
+                android:textSize="14sp"
+                android:layout_marginTop="18dp"
+                android:visibility="gone"
+                android:checked="false"
+                android:background="@drawable/omp_profile_follow_button"
+                android:textColor="@drawable/omp_profile_follow_text_color"
+                android:drawablePadding="3dp"
+                android:drawableLeft="@drawable/omp_profile_follow_drawable" />
+
+            <ImageView
+                android:id="@+id/my_full_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/omp_btn_myprofile_profileinfo"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/info_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/picture_wrapper"
+            android:layout_toLeftOf="@id/right_wrapper_layout"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#4a4a4a"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/oml_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#9b9b9b"
+                android:textSize="16sp" />
+
+            <LinearLayout android:id="@+id/other_person_layout"
+                android:visibility="gone"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/start_chat"
+                    android:text="@string/start_chat"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:background="@drawable/omp_profile_button"
+                    android:drawableLeft="@drawable/omp_profile_button_startchat"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@drawable/omp_profile_button_text_color"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:minWidth="140dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp" />
+
+                <ToggleButton android:id="@+id/add_friend"
+                              android:textOff="@string/add_friend"
+                              android:textOn="@string/friends"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:background="@drawable/omp_profile_toggle_button"
+                    android:drawableLeft="@drawable/omp_profile_button_addcontact"
+                                 android:drawablePadding="3dp"
+                    android:textColor="@drawable/omp_profile_toggle_text_color"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:minWidth="140dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/omo_profile_divider" />
+
+    <mobisocial.omlet.overlaybar.ui.view.ProfileTabWidget
+        android:id="@+id/profile_tab_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout-land/omo_viewhandler_profile_header.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout-land/omo_viewhandler_profile_header.xml -->

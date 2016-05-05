@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="500"
+        android:repeatMode="reverse"
+        android:repeatCount="3" />
+</set><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/anim/omp_hint_fade_out_fade_in.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/anim/omp_hint_fade_out_fade_in.xml -->

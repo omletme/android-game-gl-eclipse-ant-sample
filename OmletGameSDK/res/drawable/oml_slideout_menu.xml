@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="2dp" android:color="#8CFFFFFF" />
+            <padding android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp" />
+            <corners android:radius="20dp" />
+            <gradient
+                android:type="linear"
+                android:startColor="#BF000000"
+                android:endColor="#BFA9A9A9"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke android:width="2dp" android:color="#8CFFFFFF" />
+            <padding android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="2dp" />
+            <corners android:radius="20dp" />
+            <gradient
+                android:type="linear"
+                android:startColor="#BFA9A9A9"
+                android:endColor="#BF000000"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/oml_slideout_menu.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/oml_slideout_menu.xml -->

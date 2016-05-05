@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+
+    <stroke android:color="#D7D7D7" android:width="1dp"/>
+    <stroke android:color="#DADADA" android:width="1dp"/>
+    <stroke android:color="#E6E6E6" android:width="1dp" />
+    <stroke android:color="#F0F0F0" android:width="1dp" />
+
+</shape>
+<!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omo_profile_divider.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omo_profile_divider.xml -->

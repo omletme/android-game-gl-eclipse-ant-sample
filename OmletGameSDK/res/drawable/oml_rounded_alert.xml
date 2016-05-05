@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_last="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/oml_voice_record_alert_bg" />
+        </shape>
+    </item>
+
+    <item android:state_last="false">
+        <shape android:shape="oval">
+            <solid android:color="@color/oml_voice_record_hint_bg" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_rounded_alert.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_rounded_alert.xml -->

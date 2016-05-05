@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="omlib.sample"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14"
+      android:targetSdkVersion="23"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="GLActvity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--  Omlet SDK additions from https://sdk.omlet.me/en/docs.html#getting_started_install -->
+
+        <!-- These come from the developer portal where you register your app.  https://dashboard.omlet.me -->
+        <meta-data android:name="omlet.apikey" android:value="0010629089c4961e3c4b7275eb6f15942b080005bb437fcd7a"/>
+        <meta-data android:name="omlet.secret" android:value="44fdb0e936107ea88c2949280f00effb315661c6d9c4cc50674ce76ff0e56c03"/>
+        <provider
+            android:authorities="omlib.sample.omlib.provider"
+            android:name="mobisocial.omlib.service.OmlibContentProvider"/>
+        <provider
+            android:name="glrecorder.Initializer"
+            android:authorities="omlib.sample.glrecorder.initializer"
+            android:exported="false"
+            android:initOrder="2147483647" />
+        <!--  Note Manifest merger is enabled and providing the other parts -->
+        <!-- END Omlet SDK Additions -->
+        
+    </application>
+</manifest>

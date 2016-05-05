@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent">
+
+    <mobisocial.omlet.overlaychat.widgets.ChatControlRelativeLayout
+        android:id="@+id/chat_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout android:id="@+id/content_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            style="@style/view_group_top_bar">
+            <ImageButton
+                style="@style/image_button_top_bar_back"/>
+            <TextView
+                style="@style/text_top_bar_title" />
+        </RelativeLayout>
+
+        <mobisocial.omlib.ui.view.RecyclerView
+            android:id="@+id/items_container"
+            android:layout_below="@id/view_group_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F6F6"/>
+
+        <LinearLayout
+            android:id="@+id/view_group_tutorial_profile_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_group_top_bar"
+            android:visibility="invisible">
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/omp_tutorialbubble_triangle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:text="@string/omp_tutorial_click_here_to_change_picture"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:background="@drawable/omp_tutorial_text_background"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/profile_info_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F6F6F6"
+            android:layout_below="@id/view_group_top_bar"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <mobisocial.omlib.ui.view.ProfileImageView
+                    android:id="@+id/set_profile_image"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+
+                <TextView android:id="@+id/profile_picture"
+                    android:textSize="18sp"
+                    android:textColor="@color/oml_omlet_blue"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/set_profile_image"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:text="@string/omp_set_prof_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"/>
+
+            <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:minHeight="52dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/set_name"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/omp_display_name"
+                    android:textSize="18sp"
+                    android:textColor="@color/oml_group_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/my_name"
+                    android:textColor="@color/oml_omlet_blue"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/set_name"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"/>
+
+            <RelativeLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:minHeight="52dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/omlet_id"
+                    android:text="@string/omp_id"
+                    android:textSize="18sp"
+                    android:textColor="@color/oml_group_name_text"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/oml_id_value"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/omlet_id"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:textColor="@color/oml_chat_pane_text"
+                    android:textSize="18sp"
+                    android:text="@string/omp_dummy_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="1dp"
+                android:background="#e0e0e0"/>
+
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+
+
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout>
+<!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omo_viewhandler_profile.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omo_viewhandler_profile.xml -->

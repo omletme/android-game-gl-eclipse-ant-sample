@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#aaaaaa"/>
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#aaaaaa"/>
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#dddddd"/>
+            <corners android:radius="15dp" />
+        </shape></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_chat_member_remove.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_chat_member_remove.xml -->

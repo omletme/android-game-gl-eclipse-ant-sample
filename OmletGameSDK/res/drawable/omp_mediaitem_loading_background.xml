@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:topLeftRadius="7dp" android:topRightRadius="7dp"/>
+    <solid android:color="@color/gray_background_bcbcbc"/>
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_mediaitem_loading_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_mediaitem_loading_background.xml -->

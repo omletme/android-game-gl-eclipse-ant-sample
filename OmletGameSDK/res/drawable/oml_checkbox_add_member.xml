@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/oml_btn_creategroup_select_normal" />
+    <item android:state_checked="true" android:drawable="@drawable/oml_btn_creategroup_select_press" />
+    <item android:drawable="@drawable/oml_btn_creategroup_select_normal" />
+</selector><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_checkbox_add_member.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_checkbox_add_member.xml -->

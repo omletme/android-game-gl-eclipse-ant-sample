@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:visibility="gone"
+    android:background="@drawable/oml_background_black_gradient">
+
+    <LinearLayout android:id="@+id/button_wrapper_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+
+        <Button android:id="@+id/first_mode"
+            android:layout_width="@dimen/widget_bottomview_buttonside"
+            android:layout_height="@dimen/widget_bottomview_buttonside"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/oml_minimized_record_button"/>
+
+        <Button android:id="@+id/second_mode"
+            android:layout_width="@dimen/widget_bottomview_buttonside"
+            android:layout_height="@dimen/widget_bottomview_buttonside"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/oml_minimized_stickers_button"/>
+
+        <Button android:id="@+id/full_chat_view"
+            android:layout_width="@dimen/widget_bottomview_buttonside"
+            android:layout_height="@dimen/widget_bottomview_buttonside"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/oml_minimized_fullchat_button"/>
+
+        <Button android:id="@+id/close"
+            android:layout_width="@dimen/widget_bottomview_buttonside"
+            android:layout_height="@dimen/widget_bottomview_buttonside"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/oml_minimized_close_button"/>
+
+    </LinearLayout>
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/minimized_buttons_layout.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/minimized_buttons_layout.xml -->

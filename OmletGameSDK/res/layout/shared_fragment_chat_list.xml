@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/connected_ui"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/oml_public_chat_bg">
+
+        <TextView
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/close"
+            android:textColor="@color/oml_close"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/group"
+            android:textColor="@color/oml_groups_title_text"
+            android:textSize="18sp"/>
+        <RelativeLayout
+            style="@style/view_group_top_bar_menu">
+            <ProgressBar
+                android:id="@+id/syncing_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                style="@android:style/Widget.ProgressBar.Small"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!--<View-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/view_group_top_bar"-->
+        <!--android:layout_marginLeft="54dp"-->
+        <!--android:background="@color/oml_groups_line"></View>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_bar">
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="false" />
+
+        <mobisocial.omlib.ui.view.RecyclerView
+            android:id="@+id/feed_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/shared_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/omp_supportbyomlet_bg"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="17.6dp"
+            android:layout_height="17.6dp"
+            android:src="@drawable/omp_ic_signin_supportbyomletlogo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/oml_support_by_omlet_text"
+            android:textSize="9sp"
+            android:text="@string/powered_by_omlet"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/shared_fragment_chat_list.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/shared_fragment_chat_list.xml -->

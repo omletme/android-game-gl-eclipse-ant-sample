@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:topRightRadius="8dp" android:bottomRightRadius="8dp" />
+    <solid android:color="@color/oml_game_chat_control_bg"/>
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/oml_background_game_chat_control.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/oml_background_game_chat_control.xml -->

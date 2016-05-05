@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="3dp">
+
+    <View android:id="@+id/aggregator_spacer"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aggregator_spacer">
+
+        <mobisocial.omlib.ui.view.ProfileImageView android:id="@+id/profile_pic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"/>
+
+        <!-- the margins and alignments of this layout get set in ChatFragment.java -->
+        <RelativeLayout
+            android:id="@+id/sender_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/sender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9b9b9b"
+                android:textSize="12sp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/sender">
+                <ImageView android:id="@+id/read"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/omp_gamechat_msgread"/>
+                <TextView android:id="@+id/timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/read"
+                    android:layout_marginLeft="7dp"
+                    android:textSize="9sp"
+                    android:textColor="#858585"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/content_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_toRightOf="@id/profile_pic"
+            android:layout_below="@id/sender_wrapper">
+
+            <RelativeLayout
+                android:id="@+id/content_bubble_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oml_chat_bubble">
+                <LinearLayout
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="5dp"/>
+            </RelativeLayout>
+
+            <View android:id="@+id/accent_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@id/content_bubble_wrapper"
+                android:layout_alignTop="@id/content_bubble_wrapper"
+                android:background="@drawable/oml_chat_bubble_accent_bar"
+                android:visibility="invisible"/>
+            <RelativeLayout android:id="@+id/progress_bar_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@id/content_bubble_wrapper"
+                android:layout_marginTop="-2dp"
+                android:layout_alignTop="@id/content_bubble_wrapper"
+                android:background="@null">
+
+                <View android:id="@+id/progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/oml_chat_bubble_me_accent"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/chat_bubble_tail_left"
+                android:layout_width="10dp"
+                android:layout_height="6dp"
+                android:layout_alignTop="@id/content_bubble_wrapper"
+                android:layout_alignLeft="@id/content_bubble_wrapper"
+                android:layout_marginLeft="-6dp"
+                android:background="@drawable/omp_privatechat_bubblearrow_white"/>
+            <View
+                android:id="@+id/chat_bubble_tail_right"
+                android:layout_width="10dp"
+                android:layout_height="6dp"
+                android:layout_alignTop="@id/content_bubble_wrapper"
+                android:layout_alignRight="@id/content_bubble_wrapper"
+                android:layout_marginRight="-6dp"
+                android:background="@drawable/omp_privatechat_bubblearrow_blue"/>
+
+            <TextView android:id="@+id/like_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="11dp"
+                android:layout_below="@id/content_bubble_wrapper"
+                android:textColor="@color/oml_chat_pane_text"
+                android:paddingBottom="5dp"/>
+
+            <RelativeLayout android:id="@+id/like_heart_wrapper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="2dp">
+                <ImageView android:id="@+id/like_heart"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_chat_item_base.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_chat_item_base.xml -->

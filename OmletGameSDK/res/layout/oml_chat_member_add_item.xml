@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/oml_clickable_white_background">
+    <mobisocial.omlib.ui.view.ProfileImageView
+        style="@style/image_profile_picture"
+        android:layout_marginLeft="12dp"/>
+    <TextView android:id="@+id/chat_member_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/remove"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:background="@drawable/oml_chat_member_remove"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/oml_chat_bubble_text"
+        android:layout_marginRight="3dp"
+        android:visibility="gone"/>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:button="@drawable/oml_checkbox_add_member"
+        android:clickable="false"
+        android:visibility="gone"
+        />
+    <TextView android:id="@+id/chat_member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/oml_group_number_view_bg"
+        android:text="@string/add_members"
+        android:layout_toLeftOf="@id/checkbox"
+        android:layout_toRightOf="@id/image_profile_picture"
+        android:singleLine="true"/>
+    <View
+        style="@style/view_line"
+        android:layout_alignParentBottom="true"></View>
+
+</RelativeLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_chat_member_add_item.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_chat_member_add_item.xml -->

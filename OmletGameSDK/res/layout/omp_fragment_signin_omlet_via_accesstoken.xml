@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="@string/omp_activate_chatting"
+        android:textColor="#cccccc"
+        android:background="@color/gray_background_2f2f2f"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="9dp"
+            android:id="@+id/user_profile_image" />
+
+        <ImageView
+            android:id="@+id/image_view_take_picture"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/omp_signin_changeprofilepic"
+            android:layout_gravity="bottom|right" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/omp_setting_description">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:text="@string/omp_name"
+            android:textSize="12sp"
+            android:textColor="@color/gray_background_676767">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/omp_input_name"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textColorHint="@color/omlet_blue"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_omlet_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:text="@string/omp_id"
+            android:textSize="12sp"
+            android:textColor="@color/gray_background_676767">
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit_text_omlet_id"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/omp_input_id"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:textColorHint="@color/omlet_blue"/>
+
+        <TextView
+            android:id="@+id/invalid_id_msg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="11dp"
+            android:text="@string/omp_invalid_id_msg"
+            android:textSize="10sp"
+            android:textColor="@color/red_invalid_msg"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkbox_accept"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/text_view_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/checkbox_accept"
+            android:text="@string/omp_accept"
+            android:textColor="@color/gray_background_afafaf" />
+
+        <TextView
+            android:id="@+id/text_view_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text_view_accept"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:text="@string/omp_or_login" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/enable_button"
+        android:text="@string/omp_enable"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:textColor="@color/baidu_blue_button_text"
+        android:background="@color/gray_background_afafaf"
+        android:enabled="false"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="24dp" >
+
+        <ImageView
+            android:id="@+id/omlet_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/omp_ic_signin_supportbyomletlogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/omlet_logo"
+            android:text="@string/omp_powered_by_omlet"/>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omp_fragment_signin_omlet_via_accesstoken.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omp_fragment_signin_omlet_via_accesstoken.xml -->

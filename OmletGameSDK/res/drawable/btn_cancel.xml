@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ocl_btn_cancel_pressed"/>
+
+    <item android:state_focused="true"
+        android:drawable="@drawable/ocl_btn_cancel_pressed"/>
+
+    <item
+        android:drawable="@drawable/ocl_btn_cancel_normal"/>
+</selector><!-- From: file:/Users/tj/Developer/omlib/omlib-cards/src/main/res/drawable/btn_cancel.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/drawable/btn_cancel.xml -->

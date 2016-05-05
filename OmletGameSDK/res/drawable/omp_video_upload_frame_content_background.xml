@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:bottomLeftRadius="4dp" android:bottomRightRadius="4dp" />
+    <solid android:color="#f6f6f6"/>
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_video_upload_frame_content_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_video_upload_frame_content_background.xml -->

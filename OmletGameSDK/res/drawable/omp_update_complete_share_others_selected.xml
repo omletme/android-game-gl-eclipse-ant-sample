@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="20dip" />
+    <solid android:color="@color/omlet_blue_button_onclick"/>
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_update_complete_share_others_selected.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_update_complete_share_others_selected.xml -->

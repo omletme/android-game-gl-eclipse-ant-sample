@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#66ffffff">
+
+    <RelativeLayout
+        android:id="@+id/alert"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:background="@drawable/oml_rounded_alert"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/image_alert"
+            android:layout_width="196dp"
+            android:layout_height="196dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/oml_ic_chatcontent_recordhint_releasetocancel"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="58dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/duration"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="43dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/info"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:text="@string/slide_up_to_cancel"/>
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/layout/oml_chat_fragment_recording_audio.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/layout/oml_chat_fragment_recording_audio.xml -->

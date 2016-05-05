@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="11dip" />
+    <solid android:color="@color/oml_action_bg"/>
+
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/oml_action_text" />
+</shape><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/drawable/oml_unread_count_background.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/drawable/oml_unread_count_background.xml -->

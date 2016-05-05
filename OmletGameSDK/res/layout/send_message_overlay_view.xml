@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:visibility="gone"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/omp_btn_miniview_close"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="@android:color/white">
+
+        <EditText android:id="@+id/text_to_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="@string/omp_quick_send_hint"
+            android:textColorHint="@color/oml_hint_text"
+            android:textColor="@color/oml_chat_bubble_text"
+            android:textSize="18sp"
+            android:padding="7dp"
+            android:singleLine="true"/>
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:background="@drawable/oml_btn_chatcontent_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/send_message_overlay_view.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/send_message_overlay_view.xml -->

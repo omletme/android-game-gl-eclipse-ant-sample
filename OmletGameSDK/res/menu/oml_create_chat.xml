@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/create_chat_menu_create"
+        android:title="Create Chat"
+        android:showAsAction="always" />
+
+
+</menu><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/menu/oml_create_chat.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/menu/oml_create_chat.xml -->

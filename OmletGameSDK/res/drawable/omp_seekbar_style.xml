@@ -1,0 +1,7 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/omp_seekbar_progress" />
+    </item>
+</layer-list><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_seekbar_style.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_seekbar_style.xml -->

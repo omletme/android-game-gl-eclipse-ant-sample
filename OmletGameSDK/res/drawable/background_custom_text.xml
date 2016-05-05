@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" />
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+</layer-list><!-- From: file:/Users/tj/Developer/omlib/omlib-cards/src/main/res/drawable/background_custom_text.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-cards/unspecified/res/drawable/background_custom_text.xml -->

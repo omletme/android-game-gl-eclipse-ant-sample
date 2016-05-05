@@ -1,0 +1,24 @@
+<mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <mobisocial.omlet.overlaychat.widgets.ChatControlRelativeLayout
+        android:id="@+id/chat_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone"></mobisocial.omlet.overlaychat.widgets.ChatControlRelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip">
+    </RelativeLayout>
+
+</mobisocial.omlet.overlaychat.widgets.BackHandlingRelativeLayout><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/layout/omo_viewhandler_chat.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/layout/omo_viewhandler_chat.xml -->

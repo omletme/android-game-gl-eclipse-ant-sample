@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_selected="true"
+        android:drawable="@drawable/omp_btn_chatroom_notioff"></item>
+    <item android:drawable="@drawable/omp_btn_chatroom_notion"></item>
+</selector><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_btn_chattabview_noti.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_btn_chattabview_noti.xml -->

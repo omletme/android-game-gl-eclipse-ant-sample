@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <scale android:fromXScale="0.0" android:fromYScale="1.0"
+        android:toXScale="1.0" android:toYScale="1.0"
+        android:duration="600" android:fillBefore="false"
+        android:repeatCount="infinite"/>
+    <alpha android:fromAlpha="1.0" android:toAlpha="0.0"
+        android:duration="600"
+        android:repeatCount="infinite"/>
+</set><!-- From: file:/Users/tj/Developer/omlib/omlib-ui/src/main/res/anim/oml_progress_bar.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/omlib-ui/unspecified/res/anim/oml_progress_bar.xml -->

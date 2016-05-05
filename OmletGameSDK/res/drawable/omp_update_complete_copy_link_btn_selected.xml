@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:topRightRadius="20dip"
+        android:bottomRightRadius="20dip"/>
+    <solid android:color="@color/gray_background_676767"/>
+
+</shape><!-- From: file:/Users/tj/Developer/omlib/glreclib/src/main/res/drawable/omp_update_complete_copy_link_btn_selected.xml --><!-- From: file:/Users/tj/Developer/omlib/glreclib-shell/build/intermediates/exploded-aar/omlib/glreclib/unspecified/genericRelease/res/drawable/omp_update_complete_copy_link_btn_selected.xml -->
