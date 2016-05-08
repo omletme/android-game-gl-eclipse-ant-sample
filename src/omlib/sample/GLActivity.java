@@ -38,6 +38,11 @@ public class GLActivity extends Activity
 
             @Override
             public void onDrawFrame(GL10 gl) {
+				try {
+					Thread.sleep(200);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
                 glClearColor(r.nextFloat(),r.nextFloat(),r.nextFloat(), 1);
                 glClear(GL10.GL_COLOR_BUFFER_BIT);
             }
