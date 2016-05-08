@@ -13,6 +13,7 @@ import static android.opengl.GLES10.*;
 
 public class GLActivity extends Activity
 {
+	GLSurfaceView gl;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -20,7 +21,7 @@ public class GLActivity extends Activity
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         
-        GLSurfaceView gl = new GLSurfaceView(this);
+        gl = new GLSurfaceView(this);
         
         //opengl 2+ required
         gl.setEGLContextClientVersion(2);
@@ -51,12 +52,14 @@ public class GLActivity extends Activity
     @Override
     protected void onResume() {
         super.onResume();
+        gl.onResume();
         OmletGameSDK.onGameActivityResume(this);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        gl.onPause();
         OmletGameSDK.onGameActivityPause(this);
     }
 
